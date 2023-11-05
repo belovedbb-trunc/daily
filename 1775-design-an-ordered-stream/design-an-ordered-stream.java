@@ -1,6 +1,6 @@
 class OrderedStream {
 
-    TreeMap<Integer, String> m = new TreeMap<>();
+    Map<Integer, String> m = new HashMap<>();
     int count = 0;
     public OrderedStream(int n) {
 
