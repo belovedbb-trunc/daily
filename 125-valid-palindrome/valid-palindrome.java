@@ -1,6 +1,5 @@
 class Solution {
     public boolean isPalindrome(String ss) {
-        Character.toUpperCase('1');
         char[] s = ss.trim().toCharArray();
         int l = 0, h = s.length -1;
         while(l < h) {
