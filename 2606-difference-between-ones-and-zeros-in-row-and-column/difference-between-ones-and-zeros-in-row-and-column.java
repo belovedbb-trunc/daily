@@ -1,6 +1,4 @@
 class Solution {
-    Map<Integer, Integer> row = new HashMap<>();
-    Map<Integer, Integer> col = new HashMap<>();
     public int[][] onesMinusZeros(int[][] grid) {
         int[][] res = new int[grid.length][grid[0].length];
         int[] row = new int[grid.length];
